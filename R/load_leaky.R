@@ -3,6 +3,7 @@
 #' @param path The path where the downloaded models are.
 #' @param competitors The number of competing processes.
 #' @return The pretrained model as a Keras model.
+#' @export
 #' @examples
 #' download_leaky_models()
 #' deepinf = load_leaky(competitors=3)

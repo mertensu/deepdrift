@@ -2,6 +2,7 @@
 #'
 #' @param path The path to store the downloaded models.
 #' @return NULL.
+#' @export
 #' @examples
 #' download_leaky_models()
 download_leaky_models <- function(path='.') {

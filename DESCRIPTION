@@ -8,7 +8,8 @@ Imports:
     keras,
     LCA4,
     dplyr,
-    rtdists
+    rtdists,
+    magrittr
 Remotes: rstudio/keras, StevenM1/LCA/LCA4
 Description: Estimation of parameters from the Leaky Competing Accumulator Model (LCA), 
     the drift diffusion model and Lévy-Flight models using pretrained neural networks. 

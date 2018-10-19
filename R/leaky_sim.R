@@ -2,6 +2,7 @@
 #'
 #' @param trials The number of trials
 #' @return The simulated dataset and the actual parameters used for simulation (list).
+#' @export
 #' @examples
 #' out_list = leaky_sim(1000)
 leaky_sim = function(trials){
