@@ -10,7 +10,7 @@ download_leaky_models(path = ".")
 \item{path}{The path to store the downloaded models.}
 }
 \value{
-The pretrained models.
+NULL.
 }
 \description{
 Load the pretrained LCA models.

@@ -1,13 +1,15 @@
 Package: deepdrift
 Type: Package
-Title: Estimation of parameters from accumulator models
+Title: Estimation of parameters of sequential sampling models
 Version: 0.1.0
 Author: Ulf Kai Mertens, Stefan Radev
 Maintainer: Ulf Kai Mertens <mertens.ulf@gmail.com>
 Imports:
     keras,
-    magrittr
-Remotes: rstudio/keras
+    LCA4,
+    dplyr,
+    rtdists
+Remotes: rstudio/keras, StevenM1/LCA/LCA4
 Description: Estimation of parameters from the Leaky Competing Accumulator Model (LCA), 
     the drift diffusion model and Lévy-Flight models using pretrained neural networks. 
 License: What license is it under?
