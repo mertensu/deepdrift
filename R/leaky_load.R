@@ -5,9 +5,9 @@
 #' @return The pretrained model as a Keras model.
 #' @export
 #' @examples
-#' download_leaky_models()
-#' deepinf = load_leaky(competitors=3)
-load_leaky <- function(path='.',competitors=3) {
+#' leaky_download()
+#' deepinf = leaky_load(competitors=3)
+leaky_load <- function(path='.',competitors=3) {
 
   filepath = file.path(path,paste0('leaky',competitors,'.hdf5'))
   deep_inf = keras::load_model_hdf5(filepath,compile=F)

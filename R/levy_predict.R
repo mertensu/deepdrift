@@ -5,7 +5,7 @@
 #' @return The parameters of the LCA model (a,t0,...).
 #' @export
 #' @examples
-#' fit_levy(df,2)
-fit_levy <- function(df, conditions = 2) {
-  print("Hello, Levy Flight model!")
+#' levy_predict(df,2)
+levy_predict <- function(df, conditions = 2) {
+  return(NULL)
 }
